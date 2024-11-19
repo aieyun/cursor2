@@ -320,7 +320,7 @@ app.post('/v1/chat/completions', async (req, res) => {
     }
 });
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 58989;
 app.listen(PORT, () => {
     console.log(`Server running on port ${PORT}`);
 });
